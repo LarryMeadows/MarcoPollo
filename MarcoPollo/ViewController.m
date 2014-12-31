@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Social/Social.h"
 
 @interface ViewController ()
 
@@ -31,8 +32,16 @@
 
 - (IBAction)pushButtonClick:(UIButton *)sender {
     
-    NSString *twitterText = [ NSString stringWithFormat: @"Marco Says: %@ %@" , self.twitterTextViewControl.text, self.globalHashtag];
+    NSString *twitterText = [ NSString stringWithFormat: @"Marco Says: %@ %@" ,
+                             self.twitterTextViewControl.text,
+                             self.globalHashtag ];
     
-    NSLog( @"%@", twitterText );
+    NSLog( @"Text to post to Twitter: %@", twitterText );
+    
+    SLComposeViewController *composer = [ SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter ];
+    
+    [ composer setInitialText:twitterText ];
+    
+    [ self presentViewController:composer animated:YES completion:Nil ];
 }
 @end

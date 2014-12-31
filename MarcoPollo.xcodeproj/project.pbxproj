@@ -14,6 +14,7 @@
 		CC29580D1A5382EE000735EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC29580C1A5382EE000735EA /* Images.xcassets */; };
 		CC2958101A5382EE000735EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29580E1A5382EE000735EA /* LaunchScreen.xib */; };
 		CC29581C1A5382EE000735EA /* MarcoPolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29581B1A5382EE000735EA /* MarcoPolloTests.m */; };
+		CC6EB0311A53937900C2D4D2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6EB0301A53937900C2D4D2 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CC2958151A5382EE000735EA /* MarcoPolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcoPolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC29581A1A5382EE000735EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC29581B1A5382EE000735EA /* MarcoPolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoPolloTests.m; sourceTree = "<group>"; };
+		CC6EB0301A53937900C2D4D2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6EB0311A53937900C2D4D2 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		CC2957F31A5382EE000735EA = {
 			isa = PBXGroup;
 			children = (
+				CC6EB0301A53937900C2D4D2 /* Social.framework */,
 				CC2957FE1A5382EE000735EA /* MarcoPollo */,
 				CC2958181A5382EE000735EA /* MarcoPolloTests */,
 				CC2957FD1A5382EE000735EA /* Products */,
