@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *twitterTextViewControl;
+
+- (IBAction)pushButtonClick:(UIButton *)sender;
 
 @end
 

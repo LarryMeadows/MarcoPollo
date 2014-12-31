@@ -412,6 +412,7 @@
 				CC2958211A5382EE000735EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2958221A5382EE000735EA /* Build configuration list for PBXNativeTarget "MarcoPolloTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				CC2958241A5382EE000735EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
